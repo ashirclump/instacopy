@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, StyleSheet, Text, TextInput, TouchableOpacity, Dimensions, ImageBackground, Image, ScrollView } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
-import Header from '../Components/Header';
+
 
 import Icontwo from 'react-native-vector-icons/Feather';
 import LinearGradient from 'react-native-linear-gradient';
 import ImagePicker, { openPicker } from 'react-native-image-crop-picker';
-import RNFetchBlob from 'rn-fetch-blob'
+// import RNFetchBlob from 'rn-fetch-blob'
 import { PESDK } from 'react-native-photoeditorsdk';
 
 
@@ -108,6 +108,7 @@ const Dpcreateone = ({ navigation }) => {
 
                 <View style={{ paddingLeft: 8, flexDirection: 'row', alignItems: 'center', backgroundColor: 'white', borderRadius: 6, height: 64, width: 342, position: 'absolute', bottom: 30, elevation: 5 }}>
                     <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+                        {/* <Dpdesign />
                         <Dpdesign />
                         <Dpdesign />
                         <Dpdesign />
@@ -117,8 +118,7 @@ const Dpcreateone = ({ navigation }) => {
                         <Dpdesign />
                         <Dpdesign />
                         <Dpdesign />
-                        <Dpdesign />
-                        <Dpdesign />
+                        <Dpdesign /> */}
 
                     </ScrollView>
                 </View>

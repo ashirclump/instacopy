@@ -2,7 +2,8 @@ apply plugin: "com.android.application"
 apply plugin: 'ly.img.android.sdk'
 apply plugin: 'kotlin-android'
 
-import com.android.build.OutputFile
+//import com.android.build.OutputFile
+//def abi = output.getFilter(com.android.build.OutputFile.ABI)
 import org.apache.tools.ant.taskdefs.condition.Os
 
 imglyConfig {
@@ -294,7 +295,8 @@ android {
             // https://developer.android.com/studio/build/configure-apk-splits.html
             // Example: versionCode 1 will generate 1001 for armeabi-v7a, 1002 for x86, etc.
             def versionCodes = ["armeabi-v7a": 1, "x86": 2, "arm64-v8a": 3, "x86_64": 4]
-            def abi = output.getFilter(OutputFile.ABI)
+//            def abi = output.getFilter(OutputFile.ABI)
+            def abi = output.getFilter(com.android.build.OutputFile.ABI)
             if (abi != null) {  // null for the universal-debug, universal-release variants
                 output.versionCodeOverride =
                         defaultConfig.versionCode * 1000 + versionCodes.get(abi)
@@ -364,3 +366,4 @@ def isNewArchitectureEnabled() {
 }
 
 apply plugin: 'com.google.gms.google-services'
+//apply from: file("../../../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)

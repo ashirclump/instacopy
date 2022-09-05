@@ -69,32 +69,32 @@ function App() {
       <Stack.Navigator>
       {/* <Stack.Screen options={{ headerShown: false }} name="Swipephoto" component={Swipephoto} /> */}
       
-      <Stack.Screen options={{ headerShown: false }} name="Login" component={Login} />
+      {/* <Stack.Screen options={{ headerShown: false }} name="Login" component={Login} /> */}
       <Stack.Screen options={{ headerShown: false }} name="Dpcreator" component={Dpcreator} />
 
-      <Stack.Screen options={{ headerShown: false }} name="Signup" component={Signup} />
+      {/* <Stack.Screen options={{ headerShown: false }} name="Signup" component={Signup} />
       <Stack.Screen options={{ headerShown: false }} name="Forgot" component={Forgot} />
       <Stack.Screen options={{ headerShown: false }} name="Reset" component={Reset} />
       <Stack.Screen options={{ headerShown: false }} name="Otp" component={Otp} />
 
 
       <Stack.Screen options={{ headerShown: false }} name="Homepage" component={Homepage} />
+ */}
 
 
-
-
+{/* 
         <Stack.Screen options={{ headerShown: false }} name="Instalogin" component={Instalogin} />
         {/* <Stack.Screen options={{ headerShown: false }} name="Flogin" component={Flogin} /> */}
-        <Stack.Screen options={{ headerShown: false }} name="Mylogin" component={Mylogin} />
+        {/* <Stack.Screen options={{ headerShown: false }} name="Mylogin" component={Mylogin} />
         <Stack.Screen options={{ headerShown: false }} name="Dpcreatortwo" component={Dpcreatortwo} />
         <Stack.Screen options={{ headerShown: false }} name="Tempupload" component={Tempupload} />
         <Stack.Screen options={{ headerShown: false }} name="Dpcreateone" component={Dpcreateone} />
         <Stack.Screen options={{ headerShown: false }} name="Uploadimage" component={Uploadimage} />
         <Stack.Screen options={{ headerShown: false }} name="Imagecrop" component={Imagecrop} />
         <Stack.Screen options={{ headerShown: false }} name="Test" component={Test} />
-        <Stack.Screen options={{ headerShown: false }} name="Sapceadder" component={Sapceadder} />
+        <Stack.Screen options={{ headerShown: false }} name="Sapceadder" component={Sapceadder} /> */}
         {/* <Stack.Screen options={{ headerShown: false }} name="Fbloginpage" component={Fbloginpage} /> */}
-        <Stack.Screen options={{ headerShown: false }} name="Imageviewer" component={Imageviewer} />
+        {/* <Stack.Screen options={{ headerShown: false }} name="Imageviewer" component={Imageviewer} />
         <Stack.Screen options={{ headerShown: false }} name="Nocropboxletterbox" component={Nocropboxletterbox} />
         <Stack.Screen options={{ headerShown: false }} name="Creativefonts" component={Creativefonts} />
         <Stack.Screen options={{ headerShown: false }} name="Dpsaverfour" component={Dpsaverfour} />
@@ -106,12 +106,12 @@ function App() {
         <Stack.Screen options={{ headerShown: false }} name="Swipephoto3" component={Swipephoto3} />
         <Stack.Screen options={{ headerShown: false }} name="Swipephoto4" component={Swipephoto4 } />
         <Stack.Screen options={{ headerShown: false }} name="Tapherebio" component={Tapherebio } />
-        <Stack.Screen options={{ headerShown: false }} name="Tapherenext" component={Tapherenext } />
+        <Stack.Screen options={{ headerShown: false }} name="Tapherenext" component={Tapherenext } /> */}
       
 
 
-        <Stack.Screen options={{ headerShown: false }} name="Home1" component={HomeScreen} />
-        <Stack.Screen options={{ headerShown: false }} name="Home2" component={Screen2} />
+        {/* <Stack.Screen options={{ headerShown: false }} name="Home1" component={HomeScreen} />
+        <Stack.Screen options={{ headerShown: false }} name="Home2" component={Screen2} /> */} 
       {/* <Stack.Screen options={{ headerShown: false }} name="Otp" component={Otp} /> */}
 
       </Stack.Navigator>

@@ -3,7 +3,7 @@ let borderframe = [
     // import Frame149 from '../../assets/Frame/Ellipse149.png';
     // import Frame152 from '../../assets/Frame/Ellipse152.png';
     // import Frame152 from '../../assets/Frame/Ellipse155.png';
-    require('../../assets/Frame/Ellipse133.png'),
+    // require('../../assets/Frame/Ellipse133.png'),
     require('../../assets/Frame/Ellipse134.png'),
     require('../../assets/Frame/Ellipse135.png'),
     require('../../assets/Frame/Ellipse136.png'),
